@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div>
+        <div id="div-1">
+            <h1 id="title">FreeCodeCamp Project Servey Form</h1>
+            <p id="description">Thank you for taking your time to fill the survey below</p>
+        </div>
+        <div id="div-2">
+            <div id="margin">
+                <form id="survey-form">
+                    <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required></label>
+                    <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email" required></label>
+                    <label id="number-label">Age<input id="number" type="number" min="13" max="99" placeholder="Age"></label>
+                    <label> What type of a developer are you?
+            <select id="dropdown">
+              <option>Select your type</option>
+              <option value="front">Front-end developer</option>
+              <option value="back">Back-end developer</option>
+              <option value="full">Full stack developer</option>
+              <option value="other">Other</option>
+            </select>
+          </label>
+                    <label>Would you recommend our website to a friend?
+            <label id="de"><input value="definitely" type="radio" name="recommend">Definitely</label>
+                    <label id="ne"><input value="never" type="radio" name="recommend">Never</label>
+                    <label id="ma"><input value="maybe" type="radio" name="recommend">Maybe</label>
+                    </label>
+                    <label>What is your favorite feature in our website?
+            <select id="dropdown">
+              <option>Select an option</option>
+              <option>New responsive web design</option>
+              <option>Front-end course</option>
+              <option>community</option>
+              <option>Open source</option>
+              <option>Projects</option>
+              <option>Challenges</option>
+            </select>
+          </label>
+                    <label>What section would you like to see improved?</label>
+                    <label id="ch"><input value="challenges" type="checkbox">Challenges</label>
+                    <label id="pr"><input value="projects" type="checkbox">Certification projects</label>
+                    <label id="fr"><input value="front" type="checkbox">Front-end project</label>
+                    <label id="ba"><input value="back" type="checkbox">Back-end projects</label>
+                    <label id="co"><input value="community" type="checkbox">Community</label>
+                    <label>Any additional comments or suggestions?
+          <textarea placeholder="Enter your comments here..." cols="25" rows="5"></textarea>
+          </label>
+                    <button type="submit" id="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

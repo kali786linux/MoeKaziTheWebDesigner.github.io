@@ -1,0 +1,42 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+@media (max-width: 350px) {
+    * {
+        max-width: 300px;
+    }
+}
+
+#full {
+    background-color: rgba(111, 111, 111, 0.3);
+    max-width: 800px;
+    min-width: 300px;
+    border-radius: 5px;
+    font-family: Open sans, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#img-div {
+    font-style: italic;
+    background: white;
+    padding: 1px;
+    margin: 0;
+    border-radius: 15px;
+}
+
+li {
+    margin: 10px auto;
+    list-style: none;
+}
