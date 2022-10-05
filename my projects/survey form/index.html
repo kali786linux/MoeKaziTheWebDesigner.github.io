@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="/portfolio/bootstrap-3.3.7-dist/css/bootstrap.css"
+        />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="text-center text-primary">School Survey Form</h1>
+            <p class="text-center">
+                Thank You For Taking Your Time To Fill In This Survey Form
+            </p>
+            <div class="box">
+                <p class="text-center">Please Fill In The Questions Below</p>
+                <form>
+                    <label for="name">Name</label>
+                    <input
+                        class="form-control"
+                        type="text"
+                        placeholder="e.g...John"
+                    />
+                    <label for="surname">Surname</label>
+                    <input
+                        class="form-control"
+                        type="text"
+                        placeholder="e.g...Smith"
+                    />
+                    <label for="age">Age</label>
+                    <input
+                        class="form-control"
+                        type="text"
+                        placeholder="Your Age"
+                        min="8"
+                        max="20"
+                    />
+                    <label for="birth-date">Birth Date</label>
+                    <input
+                        class="form-control"
+                        type="date"
+                        placeholder="Enter Your Birth Date"
+                    />
+                    <label for="birth-date">Which School Do You Go To?</label>
+                    <input
+                        class="form-control"
+                        type="text"
+                        placeholder="School Name"
+                    />
+                    <label for="grade">What Grade Are You In?</label>
+                    <select name="grade" class="form-control" id="grade">
+                        <option value="1" disabled>Select Your Grade</option>
+                        <option value="2">Grade 4</option>
+                        <option value="3">Grade 5</option>
+                        <option value="4">Grade 6</option>
+                        <option value="5">Grade 7</option>
+                        <option value="6">Grade 8</option>
+                        <option value="7">Grade 9</option>
+                        <option value="8">Grade 10</option>
+                        <option value="9">Grade 11</option>
+                        <option value="10">Grade 12</option>
+                    </select>
+                    <label for="Principle-name"
+                        >What is Your Principle's Name?
+                    </label>
+                    <input
+                        class="form-control"
+                        type="text"
+                        placeholder="e.g...Mr William"
+                    />
+                    <label for="principle-rating"
+                        >How Would You Rate Your Principle's Strictness?</label
+                    >
+                    <input type="radio" name="strict" value="Extreme" />
+                    <label>Extremely Strict</label>
+                    <br />
+                    <input type="radio" name="strict" value="Average" checked />
+                    <label>Average</label>
+                    <br />
+                    <input type="radio" name="strict" value="Jolly" />
+                    <label>Jolly</label>
+                    <label for="teacher-name"
+                        >What is Your Teacher's Name?
+                    </label>
+                    <input
+                        class="form-control"
+                        type="text"
+                        placeholder="e.g...Miss Emmily"
+                    />
+                    <label for="teacher-rating">
+                        How Would You Rate Your Teacher?
+                    </label>
+                    <input type="radio" name="rate" value="exellent" checked />
+                    <label>Exellent</label>
+                    <br />
+                    <input type="radio" name="rate" value="average" />
+                    <label>Average</label>
+                    <br />
+                    <input type="radio" name="rate" value="poor" />
+                    <label>Poor</label>
+                    <label for="learning"
+                        >How Many Hours Do You Spend Learning On Your
+                        Own?</label
+                    >
+                    <select name="hours" class="form-control">
+                        <option value="1" disabled>Select Your Amount</option>
+                        <option value="2">Less Than One</option>
+                        <option value="3">1 hour</option>
+                        <option value="4">2 hours</option>
+                        <option value="5">3 hours</option>
+                        <option value="6">4 hours</option>
+                        <option value="7">5 hours</option>
+                        <option value="8">6 hours</option>
+                        <option value="9">7 hours</option>
+                        <option value="10">8 hours</option>
+                        <option value="11">More Than 8</option>
+                    </select>
+                    <label for="extra">
+                        Do You Partake In Any extracurricular Activities?
+                    </label>
+                    <input type="radio" name="yes-no" value="yes" />
+                    <label>Yes</label>
+                    <br />
+                    <input type="radio" name="yes-no" value="no" />
+                    <label>No</label>
+                    <br />
+                    <label for="enjoy"
+                        >What Classroom activities do you enjoy the most?</label
+                    >
+                    <textarea
+                        class="form-control"
+                        type="text"
+                        rows="3"
+                        placeholder=".e.g... Q and A's are the most....."
+                    ></textarea>
+                    <label for="subjects"
+                        >What are your favourite subjects?</label
+                    >
+                    <input type="checkbox" name="english" />
+                    <label>English</label>
+                    <br />
+                    <input type="checkbox" name="mathematics" />
+                    <label>Maths</label>
+                    <br />
+                    <input type="checkbox" name="social science" />
+                    <label>Social Science</label>
+                    <br />
+                    <input type="checkbox" name="natural science" />
+                    <label>Natural Science</label>
+                    <br />
+                    <input type="checkbox" name="life science" />
+                    <label>Life Science</label>
+                    <br />
+                    <input type="checkbox" name="technology" />
+                    <label>Technology</label>
+                    <br />
+                    <input type="checkbox" name="PE" />
+                    <label>PE</label>
+                    <br />
+                    <input type="checkbox" name="life skills" />
+                    <label>Life Skills</label>
+                    <br />
+                    <input type="checkbox" name="physics" />
+                    <label>Physics</label>
+                    <label for="suggestions"
+                        >Do you have any suggestions?</label
+                    >
+                    <textarea
+                        name="suggest"
+                        class="form-control"
+                        rows="6"
+                        placeholder="Please Put Your Suggestions Here"
+                    ></textarea>
+                    <button type="submit" class="btn btn-block btn-success">
+                        Submit Form
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
