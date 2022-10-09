@@ -576,17 +576,17 @@ h2 span {
     transition: all 1s;
   }
 }
-@media (max-width: 355px) {
+@media (max-width: 415px) {
   .frh {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(-200px);
+    transform: translateX(-150px);
     transition: all 1s;
   }
   .flh {
     opacity: 0;
     filter: blur(5px);
-    transform: translateX(200px);
+    transform: translateX(150px);
     transition: all 1s;
   }
 }
