@@ -395,7 +395,8 @@ h2 span {
 }
 
 #projects .project1,
-.project2 {
+#projects .project2,
+#projects .project3 {
   width: 80%;
   height: 100%;
   border-radius: 20px;
@@ -406,10 +407,6 @@ h2 span {
   text-decoration: none;
   scroll-snap-align: start;
   transition: all 0.5s;
-}
-
-.project1 {
-  background-color: aquamarine;
 }
 
 .cards div {
@@ -426,8 +423,13 @@ h2 span {
 }
 
 .project1:hover .cards div,
-.project2:hover .cards div {
+.project2:hover .cards div,
+.project3:hover .cards div {
   opacity: 1;
+}
+
+.project1 {
+  background-color: #1e847f;
 }
 
 .project1:hover {
@@ -436,10 +438,19 @@ h2 span {
 }
 
 .project2 {
-  background-color: burlywood;
+  background-color: #000000;
 }
 
 .project2:hover {
+  z-index: 1;
+  background-color: rgba(222, 184, 135, 0.2823529412);
+}
+
+.project3 {
+  background-color: #ecc19c;
+}
+
+.project3:hover {
   z-index: 1;
   background-color: rgba(222, 184, 135, 0.2823529412);
 }
