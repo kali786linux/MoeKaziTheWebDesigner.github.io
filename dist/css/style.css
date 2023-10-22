@@ -1,7 +1,4 @@
-@font-face {
-  font-family: Neon Future;
-  src: url('https://github.com/kali786linux/MoeKaziTheWebDesigner.github.io/blob/2100067d97a10ededc4ff6b0f911e7d8b3aeec42/fonts/Neon%20Future.ttf');
-}
+@import url('https://fonts.cdnfonts.com/css/neon-future');
 * {
   margin: 0;
   padding: 0;
